@@ -1,0 +1,43 @@
+{
+  "profiles": [
+    {
+      "profileName": "포모도로",
+      "workMinutes": 25,
+      "breakMinutes": 5,
+      "pomodoroMode": true,
+      "soundEnabled": true,
+      "popupEnabled": true,
+      "flashEnabled": true,
+      "snoozeMinutes": 5,
+      "autoStart": false,
+      "minimizeToTray": true,
+      "enabledNotifications": ["REST"]
+    },
+    {
+      "profileName": "장시간 작업",
+      "workMinutes": 60,
+      "breakMinutes": 10,
+      "pomodoroMode": false,
+      "soundEnabled": true,
+      "popupEnabled": true,
+      "flashEnabled": true,
+      "snoozeMinutes": 5,
+      "autoStart": false,
+      "minimizeToTray": true,
+      "enabledNotifications": ["REST"]
+    },
+    {
+      "profileName": "단시간 집중",
+      "workMinutes": 15,
+      "breakMinutes": 3,
+      "pomodoroMode": true,
+      "soundEnabled": true,
+      "popupEnabled": true,
+      "flashEnabled": true,
+      "snoozeMinutes": 5,
+      "autoStart": false,
+      "minimizeToTray": true,
+      "enabledNotifications": ["REST"]
+    }
+  ]
+}
