@@ -109,33 +109,6 @@ java CodeBreakApplication [옵션]
 - 트레이 아이콘 우클릭: 컨텍스트 메뉴
 - 트레이에서 타이머 제어 및 프로필 변경 가능
 
-## 프로젝트 구조
-
-```
-CodeBreak/
-├── src/
-│   ├── model/                 # 데이터 모델
-│   │   ├── TimerModel.java   # 타이머 로직
-│   │   ├── NotificationManager.java  # 알림 관리
-│   │   ├── UserProfile.java  # 사용자 프로필
-│   │   └── JsonDataManager.java  # 데이터 저장
-│   ├── view/                  # GUI 컴포넌트
-│   │   ├── MainFrame.java    # 메인 창
-│   │   ├── TimerPanel.java   # 타이머 패널
-│   │   ├── SettingsPanel.java # 설정 패널
-│   │   └── NotificationDialog.java # 알림 다이얼로그
-│   ├── controller/            # 제어 로직
-│   │   ├── TimerController.java # 타이머 제어
-│   │   ├── SettingsController.java # 설정 제어
-│   │   └── SystemTrayController.java # 트레이 제어
-│   └── CodeBreakApplication.java # 메인 클래스
-├── data/                      # 설정 파일 저장 위치
-├── bin/                      # 컴파일된 클래스 파일
-├── run.bat                   # Windows 실행 스크립트
-├── run.sh                    # Unix/Linux/macOS 실행 스크립트
-└── README.md                 # 이 파일
-```
-
 ## 기술 스택
 
 - **언어**: Java
